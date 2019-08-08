@@ -1,0 +1,116 @@
+/* Our main stylesheet */
+
+body {
+    background-color: #404747;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("images/nightsky.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 1080px 2000px; */
+    background-size:cover;
+  }
+
+  
+  }
+  
+  .page-wrapper {
+    border: 5px solid #6c6c6c;
+    margin: auto;
+    padding: 50px;
+    /* width: 900px;
+    height: 800px; */
+  
+
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  h2{
+    text-align:center;
+  }
+  /* Links */
+  nav {
+    text-align: center;
+  }
+  
+  .active {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  a {
+    color:white;
+  }
+  
+  /* Main content section */
+  main {
+    border-top: 3px solid #6c6c6c;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-bottom: 3px solid #6c6c6c;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  img {
+    /* border: 1px solid gray; */
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    /* float: right; */
+    width:30%;
+    height:30%;
+    display:block;
+  }
+
+  
+  p {
+    line-height: 1.8;
+    margin: 25px;
+    text-align: justify;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  .portrait{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+  }
+.thumbnail{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+  .thumbnails{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+/* 
+.roller{
+    width: 800px;
+    height: 200px;
+}
+.roller img
+{
+    float: left;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;   
+    -webkit-transition: 1s Ease;
+}
+.roller:hover img
+{
+    -webkit-transform: translate(630px, 0px) rotate(360deg); */
+}
